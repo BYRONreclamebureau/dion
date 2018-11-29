@@ -18,7 +18,7 @@ if (have_posts()) {
                                     Mauris lobortis augue risus, sed ultricies dolor auctor at.
                                     Donec eget nisl justo.
                                 </p>
-                                <a class="button" href="#"><button>Lorem ipsum.</button></a>
+                                <a class="button" href="#"><button>Joejoe.</button></a>
                             </div>
                         </div>
                     </div>
