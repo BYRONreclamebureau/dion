@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+
+:focus {
+    outline: none;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px; /* 16px is een goeie om rem op te gebruiken. Zet de font size van de body op iets anders als de standaard tekst geen 16px is */
+    margin: 0px;
+}
+
+body {
+    font: inherit;
+    color: inherit;
+}
+
+a, a:visited {
+    color: inherit;
+    -webkit-transition: color .1s;
+    -o-transition: color .1s;
+    transition: color .1s;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    line-height: normal;
+    margin-bottom: 0rem;
+}
+
+p.lead {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+small,
+.small {
+    font-size: 0.75rem;
+}
+
+/* $$$$$$$$$$$$$$$$$ HEADER $$$$$$$$$$$$$$$$$ */
+.menu-primary-container {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #bec6d5;
+}
+
+ul#menu-primary {
+    list-style: none;
+    float: right;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0;
+}
+
+.menu-primary-container li {
+    position: relative;
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.header-nav {
+    background-color: #1d1e25;
+}
+
+.menu-primary-container a:hover {
+    color: #fff;
+}
+
+.logo p {
+    line-height: normal;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0;
+    color: #bec6d5;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.home-about {
+    text-align: center;
+}
+
+button:focus {
+    outline: none;
+}
+
+button {
+    border-radius: 15px;
+    padding: 1.3rem;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #fff;
+    background: linear-gradient(to top right,rgba(255,255,255,0.01),rgba(255,255,255,0.05));
+}
+
+button:hover {
+    background: linear-gradient(to bottom left,rgba(255,255,255,0.03),rgba(255,255,255,0.07));
+}
+/* $$$$$$$$$$$$$$$$$ HOMEPAGE $$$$$$$$$$$$$$$$$ */
+.h1-intro {
+    font-weight: bold;
+    color: #57eea1;
+}
+
+.home-about p {
+    margin: 0;
+    line-height: normal;
+    padding-bottom: 5rem;
+}
+
+.home-intro {
+    background: linear-gradient(to bottom right,#292C33,#393d47);
+    color: #bec6d5;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.skills-part {
+    text-align: center;
+    background: linear-gradient(to top right,#f6f6f7,#fefefe);
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.intro p {
+    color: #858787;
+}
+
+.intro h1 {
+    font-weight: bold;
+}
+
+.intro {
+    padding-bottom: 5rem;
+}
+
+.skills .card img {
+    max-width: 50px;
+    border-radius: 6px;
+}
+
+.card img {
+    display: block;
+    margin: 0 auto;
+}
+
+.card {
+    padding: 2.5rem;
+    margin: .5rem;
+}
+
+.card h3 {
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 2rem 0 0;
+    text-align: center;
+}
+
+.card:hover {
+    -webkit-box-shadow: 0px 0px 22px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 22px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 22px -5px rgba(0,0,0,0.75);
+}
+
+.resume {
+    text-align: center;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.bedrijfsnaam, .periode, .bedrijfsinfo {
+    text-align: left;
+}
+
+.cv-bedrijfsnaam {
+    font-weight: bold;
+}
+
+img.social-deal {
+    position: relative;
+    width: 100%;
+    top: calc(100% - 80%);
+}
+
+img.byron {
+    position: relative;
+    top: calc(100% - 94%);
+}
+
+.bedrijfsinfo {
+    margin-bottom: 5rem;
+}
